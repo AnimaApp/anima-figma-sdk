@@ -1,8 +1,6 @@
 # anima-figma-sdk
 
-An SDK for Figma plugins that converts Figma to HTML.
-
-Developers 
+An SDK for Figma plugins that need to convert Figma to HTML.
 
 # Installation
 
