@@ -51,7 +51,7 @@ To get a zip `Target.Zip`. Best for downloading a package that includes html, cs
 Import * as AnimaFigmaSDK from "@animaapp/anima-figma-sdk"
 Import { Target, Options } from "@animaapp/anima-figma-sdk-types"
 
-AnimaFigmaSDK.exportNodeAsHTML({ "target": Target.Zip } as Options, (html: string) => {
+AnimaFigmaSDK.exportNodeAsHTML({ "target": Target.Zip } as Options, (zipUrl: URL) => {
   // your success call back code
 },
 (error) => {
